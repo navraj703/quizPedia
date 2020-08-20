@@ -1,0 +1,40 @@
+.choise_container{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    border: 0.1rem rgb(86, 165, 235,0.25) solid;
+    margin-bottom: 0.5rem;
+}
+.choise_prifix{
+    background-color: #56a5eb;
+    padding: 5px 5px 5px;
+    color: white;
+}
+.choise_text{
+    padding: 5px;
+    width: 100%;
+}
+
+.correct{
+    background-color: green;
+}
+ .incorrect{
+     background-color: red;
+ }
+ .score_container{
+   display: flex;
+   justify-content: space-between;
+     
+ }
+ #progress_bar{
+     width: 200px;
+     border: 1px #56a5eb solid;
+     height: 30px;
+
+ }
+ #progrgess_bar_full{
+     width: 0%;
+     background-color:#56a5eb;
+     height: 30px;
+ 
+ }

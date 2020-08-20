@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <a href="./index.html" id="quitBtn"><img src="./remove.png" alt="" srcset=""></a>
+    <div class="container">
+           
+        <div class="score_container">
+            <div class="score_wrapper" style="margin-right: 40px;">
+                <p class="score-prifix" id="questionCounter" >Questions</p>
+                <div id='progress_bar'>
+                    <div id="progrgess_bar_full"></div>
+                </div>
+            </div>
+            <div class="score_wrapper">
+                    <p class="score-prifix">Score</p>
+                    <h2 class="" id="score"></h2>
+                </div>
+        </div>
+        <div id="game">
+            <h2 class="question" id="question">What is the answer of this question</h2>
+            <div class="choise_container">
+                <p class="choise_prifix">A</p>
+                <p class="choise_text" data-number="1">Option 1</p>
+            </div>
+            <div class="choise_container">
+                <p class="choise_prifix">B</p>
+                <p class="choise_text" data-number="2">Option 2</p>
+            </div>
+            <div class="choise_container">
+                <p class="choise_prifix">C</p>
+                <p class="choise_text" data-number="3">Option 3</p>
+            </div>
+            <div class="choise_container">
+                <p class="choise_prifix">D</p>
+                <p class="choise_text" data-number="4">Option 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+
+</html>
